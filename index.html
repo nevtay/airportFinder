@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>An Airport Finder</title>
+        <meta name="airport finder" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    
+    <body>
+        <section class="header">
+            <div class="header--container">
+                <h1 class="header--main">Airport Finder</h1>
+                <input class="header--input" type="text" id="input" placeholder="enter city, country, or airport">
+            </div>
+        </section>
+
+        <section class="notification">
+            <h2 class="notification--text hidden"></h2>
+        </section>
+
+        <section class="results">
+            <table class="results--table">
+                <thead>
+                    <tr class="results--table-row">
+                        <th class="results--table-header">Country</th>
+                        <th class="results--table-header">IATA Code</th>
+                        <th class="results--table-header">Airport/City Name</th>
+                    </tr>
+                </thead>
+                <tbody class="results--table-output">
+                    <!-- <tr class="results--table-row">
+                        <td class="results--table-output"></td>
+                        <td class="results--table-output"></td>
+                        <td class="results--table-output"></td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </section>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>

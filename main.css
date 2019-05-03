@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.hidden {
+  display: hidden;
+}
+
+.text--success {
+  background-color: rgba(22, 224, 154, 0.5);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40vh;
+  width: 100%;
+  background-image: url("./img/airport_lady.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(255, 255, 255, 0.75);
+  background-blend-mode: lighten;
+}
+
+.header .header--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.header .header--main {
+  font-size: 4.8rem;
+}
+
+.header .header--input {
+  width: 55vw;
+  height: 3rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+}
+
+.header .header--input::-webkit-input-placeholder {
+  color: #a80000;
+  opacity: .5;
+  letter-spacing: .1rem;
+}
+
+.header .header--input:-ms-input-placeholder {
+  color: #a80000;
+  opacity: .5;
+  letter-spacing: .1rem;
+}
+
+.header .header--input::-ms-input-placeholder {
+  color: #a80000;
+  opacity: .5;
+  letter-spacing: .1rem;
+}
+
+.header .header--input::placeholder {
+  color: #a80000;
+  opacity: .5;
+  letter-spacing: .1rem;
+}
+
+.header .header--input:hover {
+  -webkit-box-shadow: 0.1rem 0.1rem 0.1rem #ffd20a, -0.1rem -0.1rem 0.1rem #ffd20a;
+          box-shadow: 0.1rem 0.1rem 0.1rem #ffd20a, -0.1rem -0.1rem 0.1rem #ffd20a;
+}
+
+.notification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 60vh;
+  margin-top: 1rem;
+}
+
+.results .results--table, .results .results--table-row, .results .results--table-header, .results .results--table-output {
+  border-collapse: collapse;
+  border-bottom: 1px solid black;
+}
+
+.results .results--table-header:last-child,
+.results .results--table-output:last-child {
+  border-right: none;
+}
+
+.results .results--table {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.results .results--table-row {
+  text-align: left;
+}
+
+.results .results--table-header {
+  font-size: 1.6rem;
+  padding: 1rem;
+  width: 33%;
+}
+
+.results .results--table-output {
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+/*# sourceMappingURL=main.css.map */
