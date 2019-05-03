@@ -29,7 +29,7 @@ body {
   display: flex;
   height: 40vh;
   width: 100%;
-  background-image: url("./img/airport_lady.jpg");
+  background-image: url("img/airport_lady.jpg");
   background-size: cover;
   background-position: center center;
   background-color: rgba(255, 255, 255, 0.75);
