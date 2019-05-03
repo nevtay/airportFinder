@@ -67,6 +67,6 @@ function debounced(delay, fn) {
     }
 }
 
-const showResults = debounced(2000, getResults);
+const showResults = debounced(1000, getResults);
 
 searchBar.addEventListener('input', showResults); 

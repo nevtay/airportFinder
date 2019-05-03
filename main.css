@@ -58,27 +58,35 @@ body {
 }
 
 .header .header--input {
-  width: 55vw;
+  width: 50vw;
   height: 3rem;
   margin-top: 1rem;
   border: none;
+  font-size: 1.1rem;
+  font-weight: bold;
   border-radius: 0.5rem;
   padding-left: 1rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .header .header--input {
+    width: 65vw;
+  }
+}
+  
 .header .header--input::-webkit-input-placeholder {
   color: #a80000;
   opacity: .5;
   letter-spacing: .1rem;
 }
 
-.header .header--input:-ms-input-placeholder {
+.header .header--input::-ms-input-placeholder {
   color: #a80000;
   opacity: .5;
   letter-spacing: .1rem;
 }
 
-.header .header--input::-ms-input-placeholder {
+.header .header--input::-moz-input-placeholder {
   color: #a80000;
   opacity: .5;
   letter-spacing: .1rem;
