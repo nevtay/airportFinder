@@ -9,7 +9,7 @@ function getResults() {
     } else { 
     if (searchBar.value !== '') {
         
-        const api = `https://cors-anywhere.herokuapp.com/iatacodes.org/api/v6/autocomplete?api_key=be58b721-1831-42fe-b963-e33bb1024ede&query=${searchBar.value}`;
+        const api = `https://cors-anywhere.herokuapp.com/https://airlabs.co/api/v6/autocomplete?api_key=940bea3f-7d49-4962-a770-263a423420b6&query=${searchBar.value}`;
         
         fetch(api)
             .then(response => {
